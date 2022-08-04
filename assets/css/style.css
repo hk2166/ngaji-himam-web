@@ -216,3 +216,13 @@ body {
         height: 500px;
     }
 }
+
+@media (max-width: 400px) {
+
+    /* Custom News Card in News Section */
+    .button-prev,
+    .button-next,
+    .button-recite {
+        font-size: 0.7rem;
+    }
+}
