@@ -2,13 +2,11 @@
 <br>
 <br>
 <br>
-<br>
 Bismillahirrohmanirrohim,
 <br>
 Ngaji Himam App Introduction : an Educative App of Islamic Student for Reciting Yellow Book, developed by Himam Bawean.
 <br>
 Supported by : Himam Bawean, Outlines Indonesia, Woles 18-19
-<br>
 <br>
 <br>
 <br>
