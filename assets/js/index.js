@@ -205,5 +205,5 @@ function updateNextButton() {
 // Get Started Actions Function
 function getStartedActions() {
     // Chnage Background-color
-    window.location.replace("../index.html");
+    window.location.replace("https://play.google.com/store/apps/details?id=com.ngajionline.himam");
 };
