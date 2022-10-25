@@ -207,3 +207,13 @@ function getStartedActions() {
     // Chnage Background-color
     window.location.replace("https://play.google.com/store/apps/details?id=com.ngajionline.himam");
 };
+
+// add onpresskey listener for ArrowLeft and ArrowRight
+document.addEventListener("keydown", (e) => {
+	e = e || window.event;
+	if (e.key === "ArrowRight") {
+		moveToNextSlide();
+	} else if (e.key === "ArrowLeft") {
+        moveToPrevSlide();
+	}
+});
