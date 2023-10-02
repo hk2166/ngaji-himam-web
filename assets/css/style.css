@@ -112,49 +112,13 @@ body {
     margin-top: 0.3125rem;
 }
 
-.button-prev--hidden {
-    visibility: hidden;
-}
-
-.button-next {
-    background-color: var(--color-secondary);
-    border-radius: 0.625rem;
-    padding: 0.8125rem 1rem;
-    font-size: 1.15rem;
-    margin: 1.25rem 0;
-    width: auto;
-    float: right;
-    margin-right: 10px;
-}
-
-.button-next--fade {
-    opacity: 0.3;
-    pointer-events: none;
-    /* filter: blur(2px); */
-}
-
-.button-prev {
-    background-color: var(--color-secondary);
-    border-radius: 0.625rem;
-    padding: 0.8125rem 1rem;
-    font-size: 1.15rem;
-    margin: 1.25rem 0;
-    float: left;
-    margin-left: 10px;
-}
-
-.button-prev--fade {
-    opacity: 0.3;
-    pointer-events: none;
-    /* filter: blur(2px); */
-}
-
 .button-recite {
     background-color: var(--color-primary);
     margin: 1.25rem 0;
     border-radius: 0.625rem;
     padding: 0.8125rem;
     font-size: 1.15rem;
+    width: 100%;
 }
 
 .button-recite a {
@@ -192,9 +156,9 @@ body {
 
 .fixed-bottom {
     position: fixed;
-    left: 0;
+    left: 20px;
+    right: 20px;
     bottom: 0;
-    width: 100%;
 }
 
 @keyframes activeItem {
@@ -220,8 +184,6 @@ body {
 @media (max-width: 400px) {
 
     /* Custom News Card in News Section */
-    .button-prev,
-    .button-next,
     .button-recite {
         font-size: 0.7rem;
     }
