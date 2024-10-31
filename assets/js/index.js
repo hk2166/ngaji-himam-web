@@ -40,11 +40,6 @@ function moveToNextSlide() {
 
 };
 
-// Get Started Actions Function
-function getStartedActions() {
-    window.location.replace("https://play.google.com/store/apps/details?id=com.ngajionline.himam");
-};
-
 // Update Wrapper Width Dynamic Function
 (updateWrapperWidth = function (width) {
 
@@ -83,11 +78,6 @@ hammer.on('swipeleft', function () {
 // Listen to Swipe Right
 hammer.on('swiperight', function () {
     moveToPrevSlide()
-});
-
-// When (reciteButton) Has (click) Event
-reciteButton.addEventListener('click', (event) => {
-    getStartedActions();
 });
 
 // Add onpresskey Listener for ArrowLeft and ArrowRight
