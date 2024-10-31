@@ -5,6 +5,7 @@
 
 :root {
     --color-primary: #FFD22E;
+    --color-dark: #24292e;
     --color-secondary: #45505b;
     --color-white: rgba(255, 255, 255);
     --color-black: rgb(0, 0, 0);
@@ -113,12 +114,16 @@ body {
 }
 
 .button-recite {
-    background-color: var(--color-primary);
+    background-color: var(--color-dark);
     margin: 1.25rem 0;
     border-radius: 0.625rem;
     padding: 0.8125rem;
     font-size: 1.15rem;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+    align-items: center;
 }
 
 .button-recite a {
